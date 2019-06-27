@@ -98,7 +98,7 @@ def reply_menu(reply_token):
     ]
   }
 }]
-        })
+        }) 
     )
 
 if __name__ == "__main__":
