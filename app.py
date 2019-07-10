@@ -18,7 +18,7 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_channel_access_token = 'Y0NgAdZqBqLQA8UxXquIaDrKg+oRKv8ic9yE6Vw/Ch16gCsLmUykjaucVRZC0mI8+QQzUJCrkSN2rpd+hUfwfJ2Nr/JU0Tv+Lf94KRqjqiNg3rOevP6dMOwHnseYN04MQdD4qFKBjQlRokTa5Jl8qQdB04t89/1O/w1cDnyilFU='
+line_channel_access_token = 'HGqI6TvyM5QnMOiVIAELDaLxalExzTEelf4P+My89QQymAMFKkfM7Dulf6hLwNsuouhIpnFLgMvYAF7cD8EzgIJdNBPzTqrkK3jcOzo0RYZPUc+Fwk87+qPe6TexdQzC7jzg3G3CLFvoz10FpycpqAdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(line_channel_access_token)
 Authorization = "Bearer {}".format(line_channel_access_token)
 
